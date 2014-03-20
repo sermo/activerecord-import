@@ -26,7 +26,7 @@ describe "#import" do
       assert_equal 1, result.num_inserts, "Failed to issue a single INSERT statement. Make sure you have a supported version of SQLite3 (3.2.11 or higher) installed"
 
       result = Topic.import Build(7, :topics)
-      assert_equal 1, result.num_inserts, , "Failed to issue a single INSERT statement. Make sure you have a supported version of SQLite3 (3.2.11 or higher) installed"
+      assert_equal 1, result.num_inserts, "Failed to issue a single INSERT statement. Make sure you have a supported version of SQLite3 (3.2.11 or higher) installed"
     end
   end
 end

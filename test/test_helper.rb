@@ -47,5 +47,5 @@ Dir[File.dirname(__FILE__) + "/models/*.rb"].each{ |file| require file }
 
 # Prevent this deprecation warning from breaking the tests.
 module Rake::DeprecatedObjectDSL
-  remove_method :import
+  remove_method :import if respond_to?(:import)
 end

@@ -23,7 +23,14 @@ log/*.log
 test.db
 test/database.yml
 
+## GENERAL
+*.gem
 .bundle/
 .redcar/
+.ruby-gemset
+.ruby-version
 .rvmrc
+Gemfile.lock
 docsite/
+tags
+tags.*

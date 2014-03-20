@@ -1,3 +1,5 @@
+require 'active_record'
+
 class ActiveRecord::Base
   class << self
     def establish_connection_with_activerecord_import(*args)
