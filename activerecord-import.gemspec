@@ -5,8 +5,8 @@ Gem::Specification.new do |s|
   s.name = 'activerecord-import'
   s.version = ActiveRecord::Import::VERSION
   s.date = '2014-03-19'
-  s.authors = 'WorldOne'
-  s.email = 'ruby@sermo.com'
+  s.authors = ['Zach Dennis', 'WorldOne']
+  s.email = ['zach.dennis@gmail.com', 'ruby@sermo.com']
   s.summary = 'Bulk-loading extension for ActiveRecord'
   s.description = 'Extraction of the ActiveRecord::Base#import functionality from ar-extensions for Rails 3 and beyond'
   s.homepage = 'http://github.com/sermo/activerecord-import'
